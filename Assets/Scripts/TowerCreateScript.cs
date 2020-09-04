@@ -14,6 +14,7 @@ public class TowerCreateScript : MonoBehaviour
     
     void OnMouseDown(){
     	if(empty){
+
     		if (gold.GetComponent<MoneyScript>().currentMoney >= tower.GetComponent<TowerScript>().towerPrice){
     			gold.GetComponent<MoneyScript>().currentMoney -= tower.GetComponent<TowerScript>().towerPrice;
 				currentTower = GameObject.Instantiate(tower, transform.position + offset, Quaternion.identity) as GameObject;
@@ -21,7 +22,8 @@ public class TowerCreateScript : MonoBehaviour
         		lvlSign.transform.SetParent(canvas.transform);
         		lvlSign.GetComponent<TowerLevelSign>().tower = currentTower;
 				currentTower.GetComponent<TowerScript>().gold = gold;
-				empty = false;
+				Debug.Log(empty.ToString() + "create tower");
+                empty = false;
     		}
     	}
     	

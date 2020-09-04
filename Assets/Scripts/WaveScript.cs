@@ -30,11 +30,9 @@ public class WaveScript : MonoBehaviour
     void Update()
     {
     	waveText.text = "Wave: " + currentWave.ToString();
-        Debug.Log(prevWave);
         if (currentWave == 0){
     		currentWave += 1;
     	}
-    	Debug.Log(currentWave);
         if (currentWave == prevWave + 1){
         	Debug.Log("New Wave!");
             prevWave = currentWave;
