@@ -53,33 +53,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11708}
+      Script: {instanceID: 11712}
     - Class: 114
-      Script: {instanceID: 11728}
+      Script: {instanceID: 11724}
     - Class: 114
-      Script: {instanceID: 11740}
+      Script: {instanceID: 11744}
     - Class: 114
-      Script: {instanceID: 11908}
+      Script: {instanceID: 11756}
     - Class: 114
-      Script: {instanceID: 12110}
+      Script: {instanceID: 12124}
     - Class: 114
-      Script: {instanceID: 12288}
+      Script: {instanceID: 12302}
     - Class: 114
-      Script: {instanceID: 12472}
+      Script: {instanceID: 12486}
     - Class: 114
-      Script: {instanceID: 12642}
+      Script: {instanceID: 12656}
     - Class: 114
-      Script: {instanceID: 12726}
+      Script: {instanceID: 12740}
     - Class: 114
-      Script: {instanceID: 13184}
+      Script: {instanceID: 13198}
     - Class: 114
-      Script: {instanceID: 13210}
+      Script: {instanceID: 13224}
     - Class: 114
-      Script: {instanceID: 13380}
+      Script: {instanceID: 13394}
     - Class: 114
-      Script: {instanceID: 13388}
+      Script: {instanceID: 13402}
     - Class: 114
-      Script: {instanceID: 13656}
+      Script: {instanceID: 13670}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -99,6 +99,12 @@ ScriptsOnlyBuild:
     - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: 249d38b9cf03cd38a6efb5befcab15aa
@@ -159,12 +165,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
   - hash:
       serializedVersion: 2
       Hash: fd8b23ad3c9e81bc85b197495bc510ac
@@ -588,4 +588,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/user/tower-defense-master/Builds/tower-defense.apk
+  playerPath: C:/Users/lierro/Downloads/Test for developers/TowerDefense/Builds/tower-defense.apk
